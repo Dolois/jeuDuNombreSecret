@@ -1,15 +1,16 @@
 Jeu du Nombre a deviner
 	  
-Au début, l'ordinateur propose un numéro entre 1 et 1000.
+Au début, l'ordinateur propose un nombre 
+entre 1 et sa limite (100/1000/10000/100000).
+
+Cette limite est passée en argument au départ de chaque partie.
 
 Le choix du nombre secret est aléatoire (random).
 
 Ensuite, le programme demande à l'utilisateur de choisir et 
-de taper un numéro entre 1 et 1000.
+de taper un nombre entre 1 et la limite.
 
-L'utilisateur (nous) essaie de le deviner. 
-
-La limite des tentatives est de 10 éssais.
+L'utilisateur (nous) essaie de le deviner en 10 tentatives. 
    
 A chaque tentative, l'ordinateur nous répond si le nombre saisie 
 est plus petit ou plus grand que notre nombre secret.
