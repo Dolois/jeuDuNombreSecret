@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Application {
 	
-	/* Jeu du Nombre a deviner
+	/* Jeu du Nombre Secret
 	 * 
 	 * Au début, l'ordinateur propose un numéro entre 1 et 1000.
 	 * Le choix est fait au hazard (random). Ensuite, le programme

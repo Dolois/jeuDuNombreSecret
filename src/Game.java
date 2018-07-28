@@ -17,7 +17,7 @@ public class Game {
 		int nombreSecret;
 		nombreSecret = (int) (Math.random() * limite + 1);
 		System.out.println(nombreSecret);
-		for (int i = 0; i < 10; i++)
+		for (int i = 0; i < 12; i++)
 		{
 			System.out.println();
 		}
@@ -28,11 +28,12 @@ public class Game {
 	 * @param int
 	 * 
 	 * Cette méthode récupère le nombre secret
-	 * et le compare le nombre saisit par l'utilisateur
-	 * L'utilisateur a droit a dix essais pour trouver
-	 * le nombre secret. La méthode aide l'utilisateur
-	 * en lui indiquant si le nombre saisit est plus petit
-	 * ou plus grand que le nombre secret.
+	 * et le compare avec le nombre saisit par l'utilisateur.
+	 * 
+	 * L'utilisateur a droit à dix essais pour trouver le nombre secret.
+	 * 
+	 * La méthode aide l'utilisateur en lui indiquant 
+	 * si le nombre saisit est plus petit ou plus grand que le nombre secret.
 	 * 
 	 * return boolean
 	 * 
